@@ -1,7 +1,13 @@
 ---
-title: Table test
+layout: default
+title:  "Results for 2021-04-29 22:13"
+date:   2021-04-29 22:13:00 -0400
+categories: jekyll update
 ---
 <link rel="stylesheet" href="/css/custom.css">
+
+{% assign current_results  = (page.path | replace: "_posts", "" | replace: "-results.markdown", "-current_results" | replace: "/", "")  %}
+{% assign previous_results = (page.path | replace: "_posts", "" | replace: "-results.markdown", "-previous_results" | replace: "/", "") %}
 
 <h1>Projects with changed verification status</h1>
 <table>
@@ -14,8 +20,8 @@ title: Table test
         <th>Timestamp</th>
     </tr>
 
-    {% for row in site.data.current_results %}
-        {% for previous_row in site.data.previous_results %}
+    {% for row in site.data[current_results] %}
+        {% for previous_row in site.data[previous_results] %}
             {% if row['name'] == previous_row['name'] and row['verified'] != previous_row['verified'] %}
                 {% assign changed = true %}
                 {% break %}
@@ -54,9 +60,9 @@ title: Table test
         <th>Verification Mode</th>
     </tr>
 
-    {% for current_row in site.data.current_results %}
+    {% for current_row in site.data[current_results] %}
         {% assign found_name = false %}
-        {% for previous_row in site.data.previous_results %}
+        {% for previous_row in site.data[previous_results] %}
             {% if previous_row['name'] == current_row['name'] %}
                 {% assign found_name = true %}
                 {% break %}
@@ -82,9 +88,9 @@ title: Table test
         <th>Verification Mode</th>
     </tr>
 
-    {% for previous_row in site.data.previous_results %}
+    {% for previous_row in site.data[previous_results] %}
         {% assign found_name = false %}
-        {% for current_row in site.data.current_results %}
+        {% for current_row in site.data[current_results] %}
             {% if current_row['name'] == previous_row['name'] %}
                 {% assign found_name = true %}
                 {% break %}
