@@ -3,7 +3,7 @@
     "url": "https://pnpm.io/",
     "timestamp": "2021-04-28T22:00:00.978194",
     "filename_url": "https://get.pnpm.io/v6.js",
-    "verification_mode": "verify_via_checksumfile",
+    "verification_mode": "checksumfile",
     "verified": true,
     "output": ""
 }
