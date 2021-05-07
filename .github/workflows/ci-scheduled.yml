@@ -1,0 +1,28 @@
+name: Run verification checks
+
+on:
+  push:
+    branches: [ develop ]
+
+jobs:
+  build:
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        python-version: [3.9]
+
+    runs-on: ${{ matrix.os }}
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v1
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Run checks
+      run: |
+        pip install -r requirements.txt
+        ./scripts/verify_all.sh
