@@ -1,9 +1,9 @@
 {
     "name": "codecov",
     "url": "https://docs.codecov.io/docs/about-the-codecov-bash-uploader",
-    "timestamp": "2021-05-07T10:17:25.394877-04:00",
+    "timestamp": "2021-05-07T15:20:26.954865-04:00",
     "filename_url": "https://codecov.io/bash",
-    "verification_mode": "verify_via_checksumfile",
+    "verification_mode": "checksumfile",
     "verified": true,
     "output": ""
 }
