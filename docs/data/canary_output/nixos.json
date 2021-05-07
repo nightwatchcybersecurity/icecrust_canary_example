@@ -1,0 +1,9 @@
+{
+    "name": "nixos",
+    "url": "https://nixos.org/guides/install-nix.html",
+    "timestamp": "2021-05-06T23:22:20.190631-04:00",
+    "filename_url": "https://nixos.org/nix/install",
+    "verification_mode": "verify_via_pgp",
+    "verified": true,
+    "output": ""
+}

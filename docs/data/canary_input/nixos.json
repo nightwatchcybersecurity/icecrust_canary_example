@@ -1,0 +1,9 @@
+{
+  "name": "nixos",
+  "url": "https://nixos.org/guides/install-nix.html",
+  "filename_url": "https://nixos.org/nix/install",
+  "verify_via_pgp": {
+    "signaturefile_url": "https://releases.nixos.org/nix/nix-2.3.10/install.asc",
+    "keyfile_url": "https://raw.githubusercontent.com/NixOS/nixos-homepage/master/edolstra.gpg"
+  }
+}

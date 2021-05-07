@@ -1,0 +1,8 @@
+{
+  "name": "codecov",
+  "url": "https://docs.codecov.io/docs/about-the-codecov-bash-uploader",
+  "filename_url": "https://codecov.io/bash",
+  "verify_via_checksumfile": {
+    "checksumfile_url": "https://raw.githubusercontent.com/codecov/codecov-bash/master/SHA256SUM"
+  }
+}

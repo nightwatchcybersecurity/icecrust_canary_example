@@ -1,6 +1,6 @@
 {
   "name": "pnpm",
-  "url": "https://pnpm.io/",
+  "url": "https://pnpm.io/installation",
   "filename_url": "https://get.pnpm.io/v6.js",
   "verify_via_pgpchecksumfile": {
     "checksumfile_url": "https://get.pnpm.io/SHASUMS256.txt",

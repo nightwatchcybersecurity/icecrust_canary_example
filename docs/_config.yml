@@ -1,3 +1,5 @@
 theme: jekyll-theme-hacker
-title: Icecrust Canary Example
-description: Example of how to use icecrust to verify external dependencies
+title: Icetrust Canary Example
+description: Example of how to use icetrust to verify external dependencies
+
+data_dir: data
