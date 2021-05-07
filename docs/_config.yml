@@ -1,5 +1,5 @@
 theme: jekyll-theme-hacker
 title: Icetrust Canary Example
-description: Example of how to use icetrust to verify external dependencies
+description: Example of how to automate icetrust in canary mode
 
 data_dir: data
