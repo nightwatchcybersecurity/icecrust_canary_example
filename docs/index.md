@@ -35,7 +35,7 @@ title: Icetrust Dashboard
                  / 
                 <a href="/data/output/{{ item[0] }}.json">output</a> 
             </td>
-            <td>{{ item[1]['timestamp'] | date: '%Y-%m-%d %H:%M' }}</td>
+            <td>{{ item[1]['timestamp'] | date: '%Y-%m-%d %H:%M:%S %z' }}</td>
         </tr>
     {% endfor %}
 </table>
