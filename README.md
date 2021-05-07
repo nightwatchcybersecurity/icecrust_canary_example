@@ -1,5 +1,6 @@
 # icetrust
 [![Run verification checks](https://github.com/nightwatchcybersecurity/icetrust_dashboard_example/actions/workflows/ci-scheduled.yml/badge.svg)](https://github.com/nightwatchcybersecurity/icetrust_dashboard_example/actions/workflows/ci-scheduled.yml)
+[![Tests](https://github.com/nightwatchcybersecurity/icetrust_dashboard_example/actions/workflows/ci-test.yml/badge.svg)](https://github.com/nightwatchcybersecurity/icetrust_dashboard_example/actions/workflows/ci-test.yml)
 ![GitHub](https://img.shields.io/github/license/nightwatchcybersecurity/icetrust.svg)
 
 # What is this?
