@@ -15,7 +15,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
     - name: Checkout code
-      uses: actions/checkout@v1
+      uses: actions/checkout@v2
 
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
@@ -34,3 +34,4 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         file_pattern: docs/data/output/*.json
+        commit_message: Comitting verification results
