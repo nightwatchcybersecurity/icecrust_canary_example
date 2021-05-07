@@ -1,0 +1,10 @@
+{
+  "name": "rvm",
+  "url": "https://rvm.io/rvm/install",
+  "filename_url": "https://get.rvm.io",
+  "verify_via_pgp": {
+    "signaturefile_url": "https://raw.githubusercontent.com/rvm/rvm/master/binscripts/rvm-installer.asc",
+    "keyid": "7D2BAF1CF37B13E2069D6956105BD0E739499BDB",
+    "keyserver": "ipv4.pool.sks-keyservers.net"
+  }
+}
