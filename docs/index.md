@@ -14,7 +14,7 @@ title: Icetrust Dashboard
         <th>Timestamp</th>
     </tr>
 
-    {% assign sorted_data = site.data.canary_output | sort %}
+    {% assign sorted_data = site.data.output | sort %}
     {% for item in sorted_data %}
     <tr>
             <td><a href="{{ item[1]['url'] }}">{{ item[1]['name'] }}</a></td>
@@ -31,9 +31,9 @@ title: Icetrust Dashboard
                 </td>
             {% endif %}
             <td>
-                <a href="/data/canary_input/{{ item[0] }}.json">config</a>
+                <a href="/data/input/{{ item[0] }}.json">config</a>
                  / 
-                <a href="/data/canary_output/{{ item[0] }}.json">output</a> 
+                <a href="/data/output/{{ item[0] }}.json">output</a> 
             </td>
             <td>{{ item[1]['timestamp'] | date: '%Y-%m-%d %H:%M' }}</td>
         </tr>
@@ -50,9 +50,8 @@ title: Icetrust Dashboard
 
 # Additional information
 This data is compiled by verifying the provided project files via the
-icetrust project. The results are provided as JSON files.
-
-See additional documentation here:
+icetrust project. The results are provided as JSON files. See
+additional documentation here:
 - [Canary mode](https://github.com/nightwatchcybersecurity/icetrust/blob/main/CANARY.md)
 - [Icetrust project](https://github.com/nightwatchcybersecurity/icetrust) 
 
