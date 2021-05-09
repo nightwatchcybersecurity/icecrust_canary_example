@@ -27,6 +27,14 @@ You can view this live at:
 There is also an uptime-like status page available here:
 - [icetrust_uptime.nightwatchcybersecurity.com](https://icetrust_uptime.nightwatchcybersecurity.com)
 
+## Adding a new project
+To add a project, do the following:
+1. Add a new JSON file to the "/docs/data/input" folder.
+2. Run the test locally via the "/scripts/verify_all.sh" script.
+3. Add the project and its icon to the "sites" section of the
+".upptimerc.yml" file found in the [icecrust_uptime_example](https://github.com/nightwatchcybersecurity/icetrust_uptime_example/)
+   repo and point it back to the JSON output file here.
+
 ## Reporting bugs and feature requests
 Please use the GitHub issue tracker to report issues or suggest features:
 - Repo: https://github.com/nightwatchcybersecurity/icetrust_dashboard_example.
