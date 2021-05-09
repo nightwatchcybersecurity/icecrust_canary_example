@@ -7,9 +7,7 @@ title: Icetrust Example Dashboard
 This dashboard shows an example of how to use verify shell scripts
 provided by well known projects in order to avoid supply chain attacks.
 There is an alternative version that looks like a conventional 
-website status page here:
-- [icetrust_uptime.nightwatchcybersecurity.com](https://icetrust_uptime.nightwatchcybersecurity.com/)
-
+website status page here: [icetrust_uptime.nightwatchcybersecurity.com](https://icetrust_uptime.nightwatchcybersecurity.com/)
 These projects were selected from the lists found in our ["dont_curl_and_bash" project](https://github.com/nightwatchcybersecurity/dont_curl_and_bash).
 
 # Verification results
