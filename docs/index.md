@@ -11,7 +11,7 @@ title: Icetrust Dashboard
         <th>Mode</th>
         <th>Results</th>
         <th>JSON</th>
-        <th>Timestamp</th>
+        <th>Last Checked</th>
     </tr>
 
     {% assign sorted_data = site.data.output | sort %}

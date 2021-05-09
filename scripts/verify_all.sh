@@ -9,5 +9,7 @@ cd $SCRIPT_DIR/../docs
 for input_file in data/input/*.json
 do
 	filename=`echo $input_file | sed -e 's/data\/input\///g'`
-	icetrust canary data/input/$filename --output-json data/output/$filename
+	echo ---- Processing $input_file ----
+	icetrust canary --verbose data/input/$filename --output-json data/output/$filename || true
+	echo
 done
