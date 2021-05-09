@@ -3,7 +3,7 @@ name: Run verification checks
 on:
   schedule:
     - cron: "0 * * * *"
-
+  workflow_dispatch:
 jobs:
   build:
 
