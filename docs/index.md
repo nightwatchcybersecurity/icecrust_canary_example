@@ -4,8 +4,8 @@ title: Icetrust Example Dashboard
 <link rel="stylesheet" href="/css/custom.css">
 
 # About
-This dashboard shows an examle of how to use verify shell scripts used
-for installation via [the icetrust project](https://github.com/nightwatchcybersecurity/icetrust).
+This dashboard shows an example of how to use verify shell scripts
+provided by well known projects in order to avoid supply chain attacks.
 There is an alternative version that looks like a conventional 
 website status page here:
 - [icetrust_uptime.nightwatchcybersecurity.com](https://icetrust_uptime.nightwatchcybersecurity.com/)
