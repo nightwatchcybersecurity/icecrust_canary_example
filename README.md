@@ -13,7 +13,8 @@ was prompted by [the recent supply chain attack against codecov.io](https://abou
 ## How this works?
 A scheduled Github action runs "icetrust" on regular intervals to
 download and verify projects. Those get committed back to Git,
-and picked up by GitHub pages.
+and picked up by GitHub pages. These projects were selected
+from the lists found in our ["dont_curl_and_bash" project](https://github.com/nightwatchcybersecurity/dont_curl_and_bash).
 
 You can see the input/output files and Github actions here:
 - [Input files](docs/data/input/)
