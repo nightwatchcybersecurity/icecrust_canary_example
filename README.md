@@ -11,11 +11,9 @@ PGP. Development of this project
 was prompted by [the recent supply chain attack against codecov.io](https://about.codecov.io/security-update/).
 
 ## How this works?
-A scheduled Github action runs "icecrust" on regular intervals to
+A scheduled Github action runs "icetrust" on regular intervals to
 download and verify projects. Those get committed back to Git,
 and picked up by GitHub pages.
-
-This currently runs once a day.
 
 You can see the input/output files and Github actions here:
 - [Input files](docs/data/input/)
@@ -24,6 +22,9 @@ You can see the input/output files and Github actions here:
 
 You can view this live at:
 - [icetrust_dashboard.nightwatchcybersecurity.com](https://icetrust_dashboard.nightwatchcybersecurity.com)
+
+There is also an uptime-like status page available here:
+- [icetrust_uptime.nightwatchcybersecurity.com](https://icetrust_uptime.nightwatchcybersecurity.com)
 
 ## Reporting bugs and feature requests
 Please use the GitHub issue tracker to report issues or suggest features:

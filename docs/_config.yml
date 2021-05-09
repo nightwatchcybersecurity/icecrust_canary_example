@@ -1,5 +1,5 @@
 theme: jekyll-theme-hacker
-title: Icetrust Canary Example
-description: Example of how to automate icetrust in canary mode
+title: Icetrust Example Dashboard
+description: Example of how to automate icetrust
 
 data_dir: data
