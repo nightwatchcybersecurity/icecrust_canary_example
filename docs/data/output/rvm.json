@@ -1,9 +1,13 @@
 {
     "name": "rvm install script",
     "url": "https://rvm.io/rvm/install",
+<<<<<<< HEAD
     "timestamp": "2021-05-09T18:41:29.867018-04:00",
+=======
+    "timestamp": "2021-05-09T22:01:15.016450+00:00",
+>>>>>>> cb157d231dd097c5fbf886d78f23ae3ce2a751b5
     "filename_url": "https://get.rvm.io",
     "verification_mode": "pgp",
-    "verified": true,
-    "output": ""
+    "verified": false,
+    "output": "gpg: keybox '/tmp/tmptssjquk4/pubring.kbx' created\n[GNUPG:] FAILURE recv-keys 167772218\ngpg: keyserver receive failed: No data\n"
 }
