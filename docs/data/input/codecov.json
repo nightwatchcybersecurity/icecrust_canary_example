@@ -1,5 +1,5 @@
 {
-  "name": "codecov",
+  "name": "codecov bash uploader",
   "url": "https://docs.codecov.io/docs/about-the-codecov-bash-uploader",
   "filename_url": "https://codecov.io/bash",
   "checksumfile": {
