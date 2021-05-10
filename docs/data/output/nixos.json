@@ -4,6 +4,6 @@
     "timestamp": "2021-05-10T01:55:38.194648+00:00",
     "filename_url": "https://nixos.org/nix/install",
     "verification_mode": "pgp",
-    "verified": true,
-    "output": ""
+    "verified": false,
+    "output": "test"
 }
