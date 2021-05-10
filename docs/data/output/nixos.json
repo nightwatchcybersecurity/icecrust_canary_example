@@ -5,5 +5,5 @@
     "filename_url": "https://nixos.org/nix/install",
     "verification_mode": "pgp",
     "verified": false,
-    "output": "test test test"
+    "output": "test"
 }
