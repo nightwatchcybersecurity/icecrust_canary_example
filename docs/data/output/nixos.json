@@ -1,7 +1,7 @@
 {
     "name": "nixos install script",
     "url": "https://nixos.org/guides/install-nix.html",
-    "timestamp": "2021-05-10T20:01:10.188042+00:00",
+    "timestamp": "2021-05-10T21:01:06.357763+00:00",
     "filename_url": "https://nixos.org/nix/install",
     "verification_mode": "pgp",
     "verified": true,
