@@ -1,0 +1,9 @@
+{
+    "name": "awscli v2",
+    "url": "https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html",
+    "timestamp": "2021-05-10T22:32:42.085133-04:00",
+    "filename_url": "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip",
+    "verification_mode": "pgp",
+    "verified": true,
+    "output": ""
+}
