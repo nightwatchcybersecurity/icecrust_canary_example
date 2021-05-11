@@ -1,11 +1,7 @@
 {
     "name": "rvm install script",
     "url": "https://rvm.io/rvm/install",
-<<<<<<< HEAD
-    "timestamp": "2021-05-11T17:32:46.081131-04:00",
-=======
-    "timestamp": "2021-05-11T22:01:21.499055+00:00",
->>>>>>> ea50a3c8b7be7da8e5439b0ff3ee3b52941ccd70
+    "timestamp": "2021-05-11T18:30:58.273190-04:00",
     "filename_url": "https://get.rvm.io",
     "verification_mode": "pgp",
     "verified": true,
