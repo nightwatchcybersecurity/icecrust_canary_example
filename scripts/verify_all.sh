@@ -10,6 +10,6 @@ for input_file in data/input/*.json
 do
 	filename=`echo $input_file | sed -e 's/data\/input\///g'`
 	echo ---- Processing $input_file ----
-	icetrust canary --verbose data/input/$filename --output-json data/output/$filename || true
+	icetrust canary $1 data/input/$filename --output-json data/output/$filename || true
 	echo
 done
