@@ -1,5 +1,5 @@
 {
-  "name": "pnpm installer",
+  "name": "pnpm",
   "url": "https://pnpm.io/installation",
   "filename_url": "https://get.pnpm.io/v6.js",
   "pgpchecksumfile": {
