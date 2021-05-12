@@ -1,7 +1,7 @@
 {
-    "name": "rustup",
+    "name": "rustup installer",
     "url": "https://rustup.rs/",
-    "timestamp": "2021-05-11T20:45:30.279557-04:00",
+    "timestamp": "2021-05-11T21:10:32.654961-04:00",
     "filename_url": "https://sh.rustup.rs",
     "verification_mode": "compare_files",
     "verified": true,
