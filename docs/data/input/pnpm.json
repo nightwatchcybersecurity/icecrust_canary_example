@@ -1,0 +1,11 @@
+{
+  "name": "pnpm installer",
+  "url": "https://pnpm.io/installation",
+  "filename_url": "https://get.pnpm.io/v6.js",
+  "pgpchecksumfile": {
+    "checksumfile_url": "https://get.pnpm.io/SHASUMS256.txt",
+    "signaturefile_url": "https://raw.githubusercontent.com/pnpm/get/main/SHASUMS256.txt.sig",
+    "keyid": "6E67764A55961854",
+    "keyserver": "keyserver.ubuntu.com"
+  }
+}
