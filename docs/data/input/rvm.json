@@ -1,5 +1,5 @@
 {
-  "name": "rvm install script",
+  "name": "rvm installer",
   "url": "https://rvm.io/rvm/install",
   "filename_url": "https://get.rvm.io",
   "pgp": {

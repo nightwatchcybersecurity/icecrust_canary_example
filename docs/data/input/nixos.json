@@ -1,5 +1,5 @@
 {
-  "name": "nixos install script",
+  "name": "nixos installer",
   "url": "https://nixos.org/guides/install-nix.html",
   "filename_url": "https://nixos.org/nix/install",
   "pgp": {

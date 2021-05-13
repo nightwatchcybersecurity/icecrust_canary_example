@@ -1,5 +1,5 @@
 {
-  "name": "rustup installer",
+  "name": "rust bootstrap",
   "url": "https://rustup.rs/",
   "filename_url": "https://sh.rustup.rs",
   "compare_files": {

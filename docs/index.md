@@ -13,20 +13,17 @@ These projects were selected from the lists found in our ["dont_curl_and_bash" p
 # Verification results
 <table>
     <tr>
-        <th>Project Name</th>
-        <th>File</th>
-        <th>Mode</th>
-        <th>Results</th>
-        <th>JSON</th>
-        <th>Last Checked</th>
+        <th>Project<br/>Name</th>
+        <th>Verified?</th>
+        <th>Recently<br/>Changed?</th>
+        <th>Additional<br/>Details</th>
+        <th>Last<br/>Checked</th>
     </tr>
 
     {% assign sorted_data = site.data.output | sort %}
     {% for item in sorted_data %}
     <tr>
             <td><a href="{{ item[1]['url'] }}">{{ item[1]['name'] }}</a></td>
-            <td><a href="{{ item[1]['filename_url'] }}">Link</a></td>
-            <td>{{ item[1]['verification_mode'] }}</td>
             {% if item[1]['verified'] == true %}
                 <td><span style="color: green">&#x2713;</span></td>
             {% else %}
@@ -37,10 +34,13 @@ These projects were selected from the lists found in our ["dont_curl_and_bash" p
                     </span>
                 </td>
             {% endif %}
+            <td></td>
             <td>
                 <a href="/data/input/{{ item[0] }}.json">config</a>
                  / 
                 <a href="/data/output/{{ item[0] }}.json">output</a> 
+                 / 
+                <a href="/data/output_data/{{ item[0] }}.txt">file</a> 
             </td>
             <td>{{ item[1]['timestamp'] | date: '%Y-%m-%d %H:%M:%S %z' }}</td>
         </tr>
