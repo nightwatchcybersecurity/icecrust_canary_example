@@ -1,10 +1,11 @@
 {
     "name": "rust bootstrap",
     "url": "https://rustup.rs/",
-    "timestamp": "2021-05-13T01:48:23.118012+00:00",
+    "timestamp": "2021-05-13T02:04:47.472608+00:00",
     "filename_url": "https://sh.rustup.rs",
     "checksum_value": "427614d934032ae48a218136dc9e2aad30979575fadf1c53940676ceb3ca0561",
     "verification_mode": "compare_files",
     "verified": true,
+    "previous_version_matched": true,
     "output": ""
 }
