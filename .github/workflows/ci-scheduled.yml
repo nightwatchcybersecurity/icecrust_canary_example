@@ -35,3 +35,7 @@ jobs:
       with:
         file_pattern: docs/data/output/*.json
         commit_message: Comitting verification results
+        commit_user_name: Icetrust Bot
+        commit_user_email: icetrust-bot@nightwatchcybersecurity.com
+        commit_author: Icetrust Bot <icetrust-bot@nightwatchcybersecurity.com>
+
