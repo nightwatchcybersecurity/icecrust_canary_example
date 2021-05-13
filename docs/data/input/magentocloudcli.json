@@ -1,0 +1,9 @@
+{
+  "name": "magento cloud cli",
+  "url": "https://devdocs.magento.com/cloud/reference/cli-ref-topic.html",
+  "filename_url": "https://accounts.magento.cloud/cli/installer",
+  "previous_version": "data/output_data/magentocloudcli.txt",
+  "compare_files": {
+    "file2_url": "https://accounts.magento.cloud/cli/installer"
+  }
+}

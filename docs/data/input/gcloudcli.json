@@ -1,0 +1,9 @@
+{
+  "name": "gcloud cli",
+  "url": "https://cloud.google.com/sdk/docs/downloads-interactive",
+  "filename_url": "https://sdk.cloud.google.com/",
+  "previous_version": "data/output_data/gcloudcli.txt",
+  "compare_files": {
+    "file2_url": "https://sdk.cloud.google.com/"
+  }
+}

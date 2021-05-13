@@ -1,0 +1,9 @@
+{
+  "name": "poetry",
+  "url": "https://python-poetry.org/docs/#installation",
+  "filename_url": "https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py",
+  "previous_version": "data/output_data/poetry.txt",
+  "compare_files": {
+    "file2_url": "https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py"
+  }
+}

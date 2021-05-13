@@ -1,0 +1,9 @@
+{
+  "name": "sdkman",
+  "url": "https://sdkman.io/install",
+  "filename_url": "https://get.sdkman.io/",
+  "previous_version": "data/output_data/sdkman.txt",
+  "compare_files": {
+    "file2_url": "https://get.sdkman.io/"
+  }
+}

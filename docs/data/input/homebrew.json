@@ -1,0 +1,9 @@
+{
+  "name": "homebrew",
+  "url": "https://brew.sh/",
+  "filename_url": "https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh",
+  "previous_version": "data/output_data/homebrew.txt",
+  "compare_files": {
+    "file2_url": "https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh"
+  }
+}

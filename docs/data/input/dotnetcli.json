@@ -1,0 +1,9 @@
+{
+  "name": "dotnet installer",
+  "url": "https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-install-script",
+  "filename_url": "https://dot.net/v1/dotnet-install.sh",
+  "previous_version": "data/output_data/dotnetcli.txt",
+  "compare_files": {
+    "file2_url": "https://dot.net/v1/dotnet-install.sh"
+  }
+}
