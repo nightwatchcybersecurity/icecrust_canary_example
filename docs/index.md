@@ -34,7 +34,11 @@ These projects were selected from the lists found in our ["dont_curl_and_bash" p
                     </span>
                 </td>
             {% endif %}
-            <td></td>
+            <td>
+                {% if item[1]['previous_version_matched'] == false %}
+                    <span style="color: red">&#x2713;</span>
+                {% endif %}
+            </td>
             <td>
                 <a href="/data/input/{{ item[0] }}.json">config</a>
                  / 
@@ -49,10 +53,10 @@ These projects were selected from the lists found in our ["dont_curl_and_bash" p
 
 # Legend
 - **Project Name:** name and link of the project/tool being checked
-- **File:** link to the file being verified
-- **Mode:** mode defining how verification is done (see icetrust docs for more information)
-- **Results:** whether verification was successful or not (hover over to see more details)
-- **JSON:** links to the icetrust configuration file and most recent output results
+- **Verified?:** whether verification was successful or not, hover over to view the output
+- **Recently Changed?:** whether the file changed recently
+- **Additional Details:** links to the icetrust configuration file, most recent output results and a copy 
+  of the file that was checked
 - **Timestamp:** when verification was done
 
 # Additional information
