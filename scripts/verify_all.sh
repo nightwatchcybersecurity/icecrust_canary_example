@@ -13,5 +13,5 @@ do
 	icetrust canary $1 data/input/$filename --output-json data/output/$filename
 	#--save-file "data/output_data/${filename/\.json/.txt}" || true
 	echo
-	break
+	#break
 done
