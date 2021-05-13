@@ -28,8 +28,7 @@ jobs:
 
     - name: Run checks
       run: |
-        ls -R
-        echo ./scripts/verify_all.sh --verbose
+        ./scripts/verify_all.sh --verbose
 
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
