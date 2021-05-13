@@ -2,5 +2,5 @@
 ## To install, run the following command:
 # pip -r requirements.txt
 
-icetrust>=0.1.1
+icetrust>=0.1.3
 
