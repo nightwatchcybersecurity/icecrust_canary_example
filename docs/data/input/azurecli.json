@@ -2,6 +2,7 @@
   "name": "azure cli",
   "url": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=script",
   "filename_url": "https://aka.ms/InstallAzureCli",
+  "previous_version": "data/output_data/azurecli.txt",
   "compare_files": {
     "file2_url": "https://raw.githubusercontent.com/Azure/azure-cli/release/scripts/curl_install_pypi/install"
   }

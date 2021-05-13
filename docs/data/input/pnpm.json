@@ -2,6 +2,7 @@
   "name": "pnpm",
   "url": "https://pnpm.io/installation",
   "filename_url": "https://get.pnpm.io/v6.js",
+  "previous_version": "data/output_data/pnpm.txt",
   "pgpchecksumfile": {
     "checksumfile_url": "https://get.pnpm.io/SHASUMS256.txt",
     "signaturefile_url": "https://raw.githubusercontent.com/pnpm/get/main/SHASUMS256.txt.sig",

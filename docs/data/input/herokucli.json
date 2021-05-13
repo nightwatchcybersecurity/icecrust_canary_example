@@ -2,6 +2,7 @@
   "name": "heroku cli",
   "url": "https://devcenter.heroku.com/articles/heroku-cli#standalone-installation",
   "filename_url": "https://cli-assets.heroku.com/install.sh",
+  "previous_version": "data/output_data/herokucli.txt",
   "compare_files": {
     "file2_url": "https://raw.githubusercontent.com/heroku/cli/master/install-standalone.sh"
   }
