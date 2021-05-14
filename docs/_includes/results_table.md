@@ -61,7 +61,7 @@
                  / 
                 <a href="/data/output/{{ item[0] }}.json">output</a> 
                  / 
-                <a href="/data/output_data/{{ item[0] }}.txt">file</a> 
+                <a href="https://github.com/nightwatchcybersecurity/icetrust_dashboard_example/blame/main/docs/data/output_data/{{ item[0] }}.txt">file</a> 
             </td>
             <td>{{ item[1]['timestamp'] | date: '%Y-%m-%d %H:%M:%S %z' }}</td>
         </tr>
