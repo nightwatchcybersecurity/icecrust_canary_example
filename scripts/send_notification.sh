@@ -3,11 +3,16 @@
 # Check changes to see if notifications need to be sent out
 #
 
+# Define variables
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 cd $SCRIPT_DIR/../docs
-
 GIT_PAGER=cat
 
+# Setup twitter auth
+echo $TWITTER_AUTH1 >  ~/.twitter_oauth
+echo $TWITTER_AUTH2 >> ~/.twitter_oauth
+
+# Process
 for output_file in data/output/*.json
 do
 	filename=`echo $output_file | sed -e 's/data\/output\///g' | sed -e 's/\.json//g'`
@@ -22,10 +27,10 @@ do
     if [[ $verified_result == *"true"* ]]
     then
   	  echo "$filename: verification passed"
-      curl -X POST "https://maker.ifttt.com/trigger/test/with/key/$IFTTT_KEY?value1=$filename:%20verification%20passed"
+      twitter set "$filename: verification passed"
     else
   	  echo "$filename: verification failed"
-      curl -X POST "https://maker.ifttt.com/trigger/test/with/key/$IFTTT_KEY?value1=$filename:%20verification%20failed"
+  	  twitter set "$filename: verification failed"
     fi
  	fi
 
@@ -35,10 +40,13 @@ do
     if [[ $previous_result == *"false"* ]]
     then
       echo "$filename: file content has changed"
-      curl -X POST "https://maker.ifttt.com/trigger/test/with/key/$IFTTT_KEY?value1=$filename:%20file%20content%20has%20changed"
+      twitter set "$filename: file content has changed"
     fi
 	fi
 
 	echo
 	#break
 done
+
+# Cleanup
+rm ~/.twitter_oauth

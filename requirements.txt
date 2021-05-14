@@ -3,4 +3,4 @@
 # pip -r requirements.txt
 
 icetrust>=0.1.6
-
+twitter>=1.18.0
