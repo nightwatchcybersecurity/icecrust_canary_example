@@ -1,0 +1,9 @@
+{
+  "name": "fusionauth installer",
+  "url": "https://fusionauth.io/docs/v1/tech/installation-guide/fast-path/",
+  "filename_url": "https://raw.githubusercontent.com/FusionAuth/fusionauth-install/master/install.sh",
+  "previous_version": "data/output_data/fusionauth.txt",
+  "compare_files": {
+    "file2_url": "https://raw.githubusercontent.com/FusionAuth/fusionauth-install/master/install.sh"
+  }
+}
