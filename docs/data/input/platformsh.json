@@ -1,0 +1,9 @@
+{
+  "name": "platform.sh installer",
+  "url": "https://docs.platform.sh/development/cli.html#installation",
+  "filename_url": "https://platform.sh/cli/installer",
+  "previous_version": "data/output_data/platformsh.txt",
+  "compare_files": {
+    "file2_url": "https://raw.githubusercontent.com/platformsh/platformsh-cli/3.x/dist/installer.php"
+  }
+}
