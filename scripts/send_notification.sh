@@ -16,6 +16,8 @@ echo $TWITTER_AUTH2 >> ~/.twitter_oauth
 for output_file in data/output/*.json
 do
 	filename=`echo $output_file | sed -e 's/data\/output\///g' | sed -e 's/\.json//g'`
+  now=`date +"%Y-%m-%d %H:%M:%S %z"`
+
 	echo ---- Processing "$filename.json" ----
 	verified_count=`git --no-pager diff --unified=0 "data/output/$filename.json" | grep \"verified\" | wc -l`
 	previous_count=`git --no-pager diff --unified=0 "data/output/$filename.json" | grep \"previous_version_matched\" | wc -l`
@@ -26,11 +28,11 @@ do
     verified_result=`grep \"verified\" "data/output/$filename.json"`
     if [[ $verified_result == *"true"* ]]
     then
-  	  echo "$filename: verification passed"
-      twitter set "$filename: verification passed"
+  	  echo "$filename: verification passed ($now)"
+      twitter set "$filename: verification passed ($now)"
     else
   	  echo "$filename: verification failed"
-  	  twitter set "$filename: verification failed"
+  	  twitter set "$filename: verification failed ($now)"
     fi
  	fi
 
@@ -39,8 +41,8 @@ do
     previous_result=`grep \"previous_version_matched\" "data/output/$filename.json"`
     if [[ $previous_result == *"false"* ]]
     then
-      echo "$filename: file content has changed"
-      twitter set "$filename: file content has changed"
+      echo "$filename: file content has changed ($now)"
+      twitter set "$filename: file content has changed ($now)"
     fi
 	fi
 
