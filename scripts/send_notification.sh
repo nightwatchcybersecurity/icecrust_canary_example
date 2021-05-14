@@ -16,17 +16,16 @@ do
 	previous_count=`git --no-pager diff --unified=0 "data/output/$filename.json" | grep \"previous_version_matched\" | wc -l`
 
 	echo Verified count: $verified_count, Previous count: $previous_count
-	now=`date +"%Y-%m-%d %H:%M:%S %z"`
 	if [[ $(($verified_count)) == 2 ]]
 	then
     verified_result=`grep \"verified\" "data/output/$filename.json"`
     if [[ $verified_result == *"true"* ]]
     then
-  	  echo "$filename: verification passed ($now)"
-      curl -X POST "https://maker.ifttt.com/trigger/test/with/key/$IFTTT_KEY?value1=$filename:%20verification%20passed%20($now)"
+  	  echo "$filename: verification passed"
+      curl -X POST "https://maker.ifttt.com/trigger/test/with/key/$IFTTT_KEY?value1=$filename:%20verification%20passed"
     else
-  	  echo "$filename: verification failed ($now)"
-      curl -X POST "https://maker.ifttt.com/trigger/test/with/key/$IFTTT_KEY?value1=$filename:%20verification%20failed%20($now)"
+  	  echo "$filename: verification failed"
+      curl -X POST "https://maker.ifttt.com/trigger/test/with/key/$IFTTT_KEY?value1=$filename:%20verification%20failed"
     fi
  	fi
 
@@ -35,8 +34,8 @@ do
     previous_result=`grep \"previous_version_matched\" "data/output/$filename.json"`
     if [[ $previous_result == *"false"* ]]
     then
-      echo "$filename: file content has changed ($now)"
-      curl -X POST "https://maker.ifttt.com/trigger/test/with/key/$IFTTT_KEY?value1=$filename:%20file%20content%20has%20changed%20($now)"
+      echo "$filename: file content has changed"
+      curl -X POST "https://maker.ifttt.com/trigger/test/with/key/$IFTTT_KEY?value1=$filename:%20file%20content%20has%20changed"
     fi
 	fi
 
