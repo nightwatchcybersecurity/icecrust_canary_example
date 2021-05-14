@@ -1,10 +1,11 @@
 {
     "name": "platform.sh installer",
     "url": "https://docs.platform.sh/development/cli.html#installation",
-    "timestamp": "2021-05-14T15:11:34.605538-04:00",
+    "timestamp": "2021-05-14T19:15:08.008584+00:00",
     "filename_url": "https://platform.sh/cli/installer",
     "checksum_value": "dcae21ff7ac6d77e225caa7128970303404e9d7102cec1c1f91fc6cd2aeebb41",
     "verification_mode": "compare_files",
     "verified": true,
+    "previous_version_matched": true,
     "output": ""
 }
