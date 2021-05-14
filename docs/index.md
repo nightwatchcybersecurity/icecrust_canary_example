@@ -10,6 +10,9 @@ There is an alternative version that looks like a conventional
 website status page here: [icetrust_uptime.nightwatchcybersecurity.com](https://icetrust_uptime.nightwatchcybersecurity.com/)
 These projects were selected from the lists found in our ["dont_curl_and_bash" project](https://github.com/nightwatchcybersecurity/dont_curl_and_bash).
 
+# Twitter account
+You can also see results here: [@icetrustmonitor](https://twitter.com/icetrustmonitor)
+
 # Verification results - using checksums or PGP
 {% include results_table.md content="verify" %}
 
