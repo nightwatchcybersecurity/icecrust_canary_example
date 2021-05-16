@@ -32,7 +32,8 @@ jobs:
 
     - name: Send notifications
       env:
-        IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
+        TWITTER_AUTH1: ${{ secrets.TWITTER_AUTH1 }}
+        TWITTER_AUTH2: ${{ secrets.TWITTER_AUTH2 }}
       run: |
         ./scripts/send_notification.sh
 
