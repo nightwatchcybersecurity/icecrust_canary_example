@@ -1,0 +1,9 @@
+{
+  "name": "scoop",
+  "url": "https://scoop.sh/",
+  "filename_url": "https://get.scoop.sh",
+  "previous_version": "data/output_data/scoop.txt",
+  "compare_files": {
+    "file2_url": "https://raw.githubusercontent.com/lukesampson/scoop/master/bin/install.ps1"
+  }
+}
