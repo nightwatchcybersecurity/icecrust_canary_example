@@ -1,7 +1,7 @@
 {
     "name": "poetry",
     "url": "https://python-poetry.org/docs/#installation",
-    "timestamp": "2021-05-17T07:10:48.766531+00:00",
+    "timestamp": "2021-05-17T08:02:13.034669+00:00",
     "filename_url": "https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py",
     "checksum_value": "08336beb0091ab192adef2cedbaa3428dabfc8572e724d2aa7fc4a4922efb20a",
     "verification_mode": "compare_files",
