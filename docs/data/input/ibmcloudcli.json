@@ -1,0 +1,9 @@
+{
+  "name": "ibm cloud cli",
+  "url": "https://cloud.ibm.com/docs/cli?topic=cli-getting-started",
+  "filename_url": "https://ibm.biz/idt-installer",
+  "previous_version": "data/output_data/ibmcloudcli.txt",
+  "compare_files": {
+    "file2_url": "https://raw.githubusercontent.com/IBM-Cloud/ibm-cloud-developer-tools/master/linux-installer/idt-installer"
+  }
+}
