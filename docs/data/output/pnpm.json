@@ -1,11 +1,11 @@
 {
     "name": "pnpm",
     "url": "https://pnpm.io/installation",
-    "timestamp": "2021-05-20T09:02:48.143892+00:00",
+    "timestamp": "2021-05-20T10:02:50.247128+00:00",
     "filename_url": "https://get.pnpm.io/v6.js",
-    "checksum_value": "cb3008849965fdb6c9b6101186ae1234d6600d56eb16b5817e72269cf15f2efa",
+    "checksum_value": "66e6909849e1c7f0ba9aa5055f0cbc91c776379cb05d7dea796e319cc2cd26f5",
     "verification_mode": "pgpchecksumfile",
-    "verified": false,
-    "previous_version_matched": true,
-    "output": "Algorithm: sha256, File checksum: cb3008849965fdb6c9b6101186ae1234d6600d56eb16b5817e72269cf15f2efa, No match found in checksum file"
+    "verified": true,
+    "previous_version_matched": false,
+    "output": ""
 }
