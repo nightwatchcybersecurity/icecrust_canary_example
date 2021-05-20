@@ -1,0 +1,9 @@
+{
+  "name": "firebase cli",
+  "url": "https://firebase.tools/",
+  "filename_url": "https://firebase.tools",
+  "previous_version": "data/output_data/firebasecli.txt",
+  "compare_files": {
+    "file2_url": "https://firebase.tools"
+  }
+}
