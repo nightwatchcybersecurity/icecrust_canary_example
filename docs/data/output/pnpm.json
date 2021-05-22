@@ -1,7 +1,7 @@
 {
     "name": "pnpm",
     "url": "https://pnpm.io/installation",
-    "timestamp": "2021-05-22T18:21:55.759985+00:00",
+    "timestamp": "2021-05-22T19:18:17.722333+00:00",
     "filename_url": "https://get.pnpm.io/v6.js",
     "checksum_value": "cb3008849965fdb6c9b6101186ae1234d6600d56eb16b5817e72269cf15f2efa",
     "verification_mode": "pgpchecksumfile",
