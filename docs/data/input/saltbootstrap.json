@@ -1,0 +1,9 @@
+{
+  "name": "salt bootstrap",
+  "url": "https://github.com/saltstack/salt-bootstrap",
+  "filename_url": "https://bootstrap.saltproject.io",
+  "previous_version": "data/output_data/saltbootstrap.txt",
+  "checksumfile": {
+    "checksumfile_url": "https://bootstrap.saltproject.io/sha256"
+  }
+}
