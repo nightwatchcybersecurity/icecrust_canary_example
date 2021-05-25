@@ -1,0 +1,9 @@
+{
+  "name": "nextcloud web installer",
+  "url": "https://nextcloud.com/install/#instructions-server",
+  "filename_url": "https://download.nextcloud.com/server/installer/setup-nextcloud.php",
+  "previous_version": "data/output_data/nextcloud.txt",
+  "compare_files": {
+    "file2_url": "https://raw.githubusercontent.com/nextcloud/web-installer/master/setup-nextcloud.php"
+  }
+}
