@@ -1,0 +1,9 @@
+{
+  "name": "nvm",
+  "url": "https://github.com/nvm-sh/nvm#installing-and-updating",
+  "filename_url": "https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh",
+  "previous_version": "data/output_data/nvm.txt",
+  "compare_files": {
+    "file2_url": "https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh"
+  }
+}
