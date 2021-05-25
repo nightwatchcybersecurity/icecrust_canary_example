@@ -1,0 +1,9 @@
+{
+  "name": "chef installer",
+  "url": "https://docs.chef.io/chef_install_script/",
+  "filename_url": "https://omnitruck.chef.io/install.sh",
+  "previous_version": "data/output_data/chef.txt",
+  "compare_files": {
+    "file2_url": "https://omnitruck.chef.io/install.sh"
+  }
+}

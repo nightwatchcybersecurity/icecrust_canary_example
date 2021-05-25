@@ -10,7 +10,7 @@ for input_file in data/input/*.json
 do
 	filename=`echo $input_file | sed -e 's/data\/input\///g' | sed -e 's/\.json//g'`
 	echo ---- Processing "$filename.json" ----
-	icetrust canary $1 "data/input/$filename.json" --output-json "data/output/$filename.json" --save-file "data/output_data/$filename.txt" || true
+	$SCRIPT_DIR/verify_one.sh "$filename" "$1"
 	echo
 	#break
 done
