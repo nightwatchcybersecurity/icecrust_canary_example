@@ -1,0 +1,9 @@
+{
+  "name": "veracode sca / sourceclear",
+  "url": "https://help.veracode.com/r/c_sc_ci_script",
+  "filename_url": "https://download.sourceclear.com/ci.sh",
+  "previous_version": "data/output_data/veracodesca.txt",
+  "compare_files": {
+    "file2_url": "https://download.sourceclear.com/ci.sh"
+  }
+}
