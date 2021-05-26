@@ -1,10 +1,11 @@
 {
     "name": "veracode sca / sourceclear",
     "url": "https://help.veracode.com/r/c_sc_ci_script",
-    "timestamp": "2021-05-25T20:58:55.440367-04:00",
+    "timestamp": "2021-05-26T02:39:52.097547+00:00",
     "filename_url": "https://download.sourceclear.com/ci.sh",
     "checksum_value": "1f4f319c2199e8341f3f903a372adc1c98fad4383a37e19a6168c2fc87927dfd",
     "verification_mode": "compare_files",
     "verified": true,
+    "previous_version_matched": true,
     "output": ""
 }
