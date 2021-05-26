@@ -79,7 +79,7 @@ check_architecture() {
   debug "check_architecture: architecture: ${arch}"
   if [ "z${arch}" != "zx86_64" ]; then
     debug "check_architecture: architecture is not x86_64"
-    echo "error: SourceClear CI only supports x86_64, but your uname -m reported '${arch}'" >&2
+    echo "error: Veracode SCA CI only supports x86_64, but your uname -m reported '${arch}'" >&2
     exit 1
   fi
 }
@@ -100,7 +100,7 @@ check_and_set_OS() {
       ;;
     *)
       debug "check_and_set_OS: Kernel not recognized"
-      echo "error: SourceClear CI only supports Linux or Darwin, but your uname -s reported '${kernel}'" >&2
+      echo "error: Veracode SCA CI only supports Linux or Darwin, but your uname -s reported '${kernel}'" >&2
       exit 1
       ;;
   esac
