@@ -1,0 +1,9 @@
+{
+  "name": "mattermost",
+  "url": "https://docs.mattermost.com/help/getting-started/light-install.html#installation",
+  "filename_url": "https://deb.packages.mattermost.com/repo-setup.sh",
+  "previous_version": "data/output_data/mattermost.txt",
+  "compare_files": {
+    "file2_url": "https://deb.packages.mattermost.com/repo-setup.sh"
+  }
+}
