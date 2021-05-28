@@ -1,0 +1,9 @@
+{
+  "name": "volta",
+  "url": "https://docs.volta.sh/guide/getting-started",
+  "filename_url": "https://get.volta.sh",
+  "previous_version": "data/output_data/volta.txt",
+  "checksumfile": {
+    "checksumfile_url": "https://raw.githubusercontent.com/volta-cli/volta/main/dev/unix/SHASUMS256.txt"
+  }
+}
