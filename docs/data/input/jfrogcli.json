@@ -1,0 +1,9 @@
+{
+  "name": "jfrog cli",
+  "url": "https://jfrog.com/getcli/",
+  "filename_url": "https://getcli.jfrog.io/",
+  "previous_version": "data/output_data/jfrogcli.txt",
+  "compare_files": {
+    "file2_url": "https://raw.githubusercontent.com/jfrog/jfrog-cli/master/build/getCli.sh"
+  }
+}
