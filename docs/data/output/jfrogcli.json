@@ -1,7 +1,7 @@
 {
     "name": "jfrog cli",
     "url": "https://jfrog.com/getcli/",
-    "timestamp": "2021-06-02T21:58:37.247748+00:00",
+    "timestamp": "2021-06-02T22:53:23.411102+00:00",
     "filename_url": "https://getcli.jfrog.io/",
     "checksum_value": "f4f1a90aff9b4edf043fab311f5a8a067739b7850b0222fe0d859525eb741812",
     "verification_mode": "compare_files",
