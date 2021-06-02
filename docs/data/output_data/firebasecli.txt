@@ -96,7 +96,7 @@
 # technical details, you can just run the command above.
 
 # We begin by generating a unique ID for tracking the anonymous session.
-CID=$(cat /dev/urandom | LC_CTYPE=c tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
+CID=$(head -80 /dev/urandom | LC_ALL=c tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
 # Credit: https://gist.github.com/earthgecko/3089509
 
 # We can use this CID in all calls to the Google Analytics endpoint via
@@ -126,7 +126,7 @@ send_analytics_event start
 
 # If the user asked for us to uninstall firebase, then do so.
 if [ "$uninstall" = "true" ]; then
-    if [[ ! "$(firebase --tool:setup-check)" == *bins* ]];
+    if [[ ! "$(firebase --tool:setup-check 2>&1)" == *bins* ]];
     then
         echo "Your \"firebase\" install was done via npm, not firebase.tools."
         echo "Run \"npm uninstall -g firebase-tools\" to uninstall."
@@ -180,7 +180,7 @@ if [ ! -z "$HAS_FIREBASE_TOOLS" ]; then
     # We are only capable of upgrading installs of the standalone binary version of firebase-tools
     # To detect if the version of firebase-tools installed is the binary version, we pass a hidden
     # flag which returns a JSON response from the binary or an error on a regular install.
-    if [[ "$(firebase --tool:setup-check)" == error* ]]; then
+    if [[ "$(firebase --tool:setup-check 2>&1)" == error* ]]; then
         # If the install isn't a binary (i.e. it was installed via npm) then we can't help, so we exit.
         echo "Your machine already has $FIREBASE_TOOLS_NICKNAME installed. Nothing to do."
         echo "-- All done!"
