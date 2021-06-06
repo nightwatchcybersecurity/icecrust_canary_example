@@ -1,7 +1,7 @@
 {
     "name": "heroku cli",
     "url": "https://devcenter.heroku.com/articles/heroku-cli#standalone-installation",
-    "timestamp": "2021-06-06T16:26:35.760072+00:00",
+    "timestamp": "2021-06-06T18:09:29.077699+00:00",
     "filename_url": "https://cli-assets.heroku.com/install.sh",
     "checksum_value": "7ed5b2fab88bd8c5c7b3af759abc3a89348e582416ab8325274f7c7324c1645a",
     "verification_mode": "compare_files",
