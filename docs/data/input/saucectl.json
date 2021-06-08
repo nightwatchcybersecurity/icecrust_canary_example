@@ -1,0 +1,9 @@
+{
+  "name": "saucectl",
+  "url": "https://docs.saucelabs.com/testrunner-toolkit/installation/index.html#installing-saucectl",
+  "filename_url": "https://saucelabs.github.io/saucectl/install ",
+  "previous_version": "data/output_data/saucectl.txt",
+  "compare_files": {
+    "file2_url": "https://raw.githubusercontent.com/saucelabs/saucectl/master/install"
+  }
+}
