@@ -1,0 +1,9 @@
+{
+  "name": "pi-hole installer",
+  "url": "https://docs.pi-hole.net/main/basic-install/",
+  "filename_url": "https://install.pi-hole.net",
+  "previous_version": "data/output_data/pihole.txt",
+  "compare_files": {
+    "file2_url": "https://raw.githubusercontent.com/pi-hole/pi-hole/master/automated%20install/basic-install.sh"
+  }
+}
