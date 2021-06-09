@@ -1,7 +1,7 @@
 {
     "name": "dell system update",
     "url": "https://linux.dell.com/repo/hardware/dsu/",
-    "timestamp": "2021-06-09T09:01:27.857204+00:00",
+    "timestamp": "2021-06-09T10:01:37.969799+00:00",
     "filename_url": "https://linux.dell.com/repo/hardware/dsu/bootstrap.cgi",
     "checksum_value": "b43c5442cf1acc1b84f8bf360fcf6b821375ff9dc2e12360ec5864caffba6785",
     "verification_mode": "compare_files",
