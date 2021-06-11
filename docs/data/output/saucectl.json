@@ -1,7 +1,7 @@
 {
     "name": "saucectl",
     "url": "https://docs.saucelabs.com/testrunner-toolkit/installation/index.html#installing-saucectl",
-    "timestamp": "2021-06-11T04:05:24.210789+00:00",
+    "timestamp": "2021-06-11T05:12:09.487613+00:00",
     "filename_url": "https://saucelabs.github.io/saucectl/install ",
     "checksum_value": "05ecbc9a93db398cfe3870526bab7c21ff7330569ba11ede47c546fdfdca2820",
     "verification_mode": "compare_files",
