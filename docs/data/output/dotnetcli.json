@@ -1,7 +1,7 @@
 {
     "name": "dotnet installer",
     "url": "https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-install-script",
-    "timestamp": "2021-06-20T14:01:23.210871+00:00",
+    "timestamp": "2021-06-20T15:01:25.374819+00:00",
     "filename_url": "https://dot.net/v1/dotnet-install.sh",
     "checksum_value": "d998926533a32537fada686ac41918b67e3e97a169a43c99cfd4100711767145",
     "verification_mode": "compare_files",
