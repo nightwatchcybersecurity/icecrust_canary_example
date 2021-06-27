@@ -1,7 +1,7 @@
 {
     "name": "fusionauth installer",
     "url": "https://fusionauth.io/docs/v1/tech/installation-guide/fast-path/",
-    "timestamp": "2021-06-26T23:01:19.559095+00:00",
+    "timestamp": "2021-06-27T00:11:55.162258+00:00",
     "filename_url": "https://raw.githubusercontent.com/FusionAuth/fusionauth-install/master/install.sh",
     "checksum_value": "4bbcc152a5b01ca3a1285191adefc53a389563ab4eaf197a90888b11e371c30f",
     "verification_mode": "compare_files",
