@@ -1,9 +1,7 @@
 #!/bin/bash
-​
 CLI_OS="na"
 CLI_UNAME="na"
 CLI_MAJOR_VER="v1"
-​
 if [[ $# -eq 1 ]] && [[ $1 -eq v2 ]]
 then
     CLI_MAJOR_VER="v2"
@@ -22,7 +20,6 @@ else
     VERSION=$1
     echo "Downloading version $1 of JFrog CLI..."
 fi
-​
 if $(echo "${OSTYPE}" | grep -q msys); then
     CLI_OS="windows"
     URL="https://releases.jfrog.io/artifactory/jfrog-cli/${CLI_MAJOR_VER}/${VERSION}/jfrog-cli-windows-amd64/jfrog.exe"
@@ -64,5 +61,5 @@ else
     URL="https://releases.jfrog.io/artifactory/jfrog-cli/v1/${VERSION}/jfrog-cli-${CLI_OS}-${ARCH}/jfrog"
     FILE_NAME="jfrog"
 fi
-​
 curl -XGET "$URL" -L -k -g > $FILE_NAME
+chmod u+x $FILE_NAME
