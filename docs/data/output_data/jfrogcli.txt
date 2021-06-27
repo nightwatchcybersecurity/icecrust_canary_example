@@ -58,8 +58,7 @@ else
             exit -1
             ;;
     esac
-    URL="https://releases.jfrog.io/artifactory/jfrog-cli/v1/${VERSION}/jfrog-cli-${CLI_OS}-${ARCH}/jfrog"
+    URL="https://releases.jfrog.io/artifactory/jfrog-cli/${CLI_MAJOR_VER}/${VERSION}/jfrog-cli-${CLI_OS}-${ARCH}/jfrog"
     FILE_NAME="jfrog"
 fi
 curl -XGET "$URL" -L -k -g > $FILE_NAME
-chmod u+x $FILE_NAME
