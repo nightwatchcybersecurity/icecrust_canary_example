@@ -1,11 +1,11 @@
 {
     "name": "jfrog cli",
     "url": "https://jfrog.com/getcli/",
-    "timestamp": "2021-06-28T08:01:48.331248+00:00",
+    "timestamp": "2021-06-28T09:01:37.085052+00:00",
     "filename_url": "https://getcli.jfrog.io/",
-    "checksum_value": "3577387f1f9da3fadd610d60871c033780070b7e49575aaa2c21e5272107c3e4",
+    "checksum_value": "5434e8b784f80ca52d7d0b51f8a01d07222246ca45df6084407c9ad309abdfb7",
     "verification_mode": "compare_files",
     "verified": false,
-    "previous_version_matched": true,
-    "output": "File1 checksum: 3577387f1f9da3fadd610d60871c033780070b7e49575aaa2c21e5272107c3e4, File2 checksum: 4eb0e2818927e48a71228cb4fd6d9f6840aa77812cf5d49081c215712d2992e8"
+    "previous_version_matched": false,
+    "output": "File1 checksum: 5434e8b784f80ca52d7d0b51f8a01d07222246ca45df6084407c9ad309abdfb7, File2 checksum: 4eb0e2818927e48a71228cb4fd6d9f6840aa77812cf5d49081c215712d2992e8"
 }
