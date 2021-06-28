@@ -1,7 +1,7 @@
 {
     "name": "magento cloud cli",
     "url": "https://devdocs.magento.com/cloud/reference/cli-ref-topic.html",
-    "timestamp": "2021-06-28T09:01:37.563467+00:00",
+    "timestamp": "2021-06-28T10:01:35.263052+00:00",
     "filename_url": "https://accounts.magento.cloud/cli/installer",
     "checksum_value": "4341ec7bf49ae3e6fb409b41100c894a93871f86898be31dd64e59007be2e63b",
     "verification_mode": "compare_files",
