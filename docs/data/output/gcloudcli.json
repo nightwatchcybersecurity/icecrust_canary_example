@@ -1,7 +1,7 @@
 {
     "name": "gcloud cli",
     "url": "https://cloud.google.com/sdk/docs/downloads-interactive",
-    "timestamp": "2021-07-04T02:14:33.158454+00:00",
+    "timestamp": "2021-07-04T03:01:18.408479+00:00",
     "filename_url": "https://sdk.cloud.google.com/",
     "checksum_value": "7a518bd002e7f7f36605fdfd244e3d5c78638e40bfb17102ab8139ef687ea6c6",
     "verification_mode": "compare_files",
