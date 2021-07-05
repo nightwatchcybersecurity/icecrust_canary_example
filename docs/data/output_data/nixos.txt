@@ -25,18 +25,17 @@ require_util() {
 }
 
 case "$(uname -s).$(uname -m)" in
-    Linux.x86_64) system=x86_64-linux; hash=8e05e7604ad570e7f816ebfdb905d084a27ba2c2a606996860976fc07201fd20;;
-    Linux.i?86) system=i686-linux; hash=fd0472d5b597e7d423ded1b36de893973f3f3aa6dcf3940054ecc4faead28908;;
-    Linux.aarch64) system=aarch64-linux; hash=f8c29aac37df7216a5c75bde9c55ec5abbee848bcde62a86655a6b2b40bb86c2;;
-    Darwin.x86_64) system=x86_64-darwin; hash=81cc3f2d5b06162b43a4695b37952ef569318d44c999558b8c54a925bab24ded;;
-    # eventually maybe: system=arm64-darwin; hash=@binaryTarball_arm64-darwin@;;
-    Darwin.arm64) system=x86_64-darwin; hash=81cc3f2d5b06162b43a4695b37952ef569318d44c999558b8c54a925bab24ded;;
+    Linux.x86_64) system=x86_64-linux; hash=5260ea5bb30bf3a7d023869644f28fae8b510b91e50f031cf72085f229dc769f;;
+    Linux.i?86) system=i686-linux; hash=16cda1322ea63effa6f8ef018f6240240e3d8478011ce060ffba64356f758fe4;;
+    Linux.aarch64) system=aarch64-linux; hash=a3be84110647d3aeadef0f8b398c59f71aaf44250ab7ec99464e9781d77b33bb;;
+    Darwin.x86_64) system=x86_64-darwin; hash=bb99ed5a18383133ec5c63677fed5cc199dbbc1ef98d0ac312afe3a27d6380ad;;
+    Darwin.arm64) system=aarch64-darwin; hash=5078b0a1685682b7d8c44d91bd34ee6979959505641662c37c225a0b7ed7eab3;;
     *) oops "sorry, there is no binary distribution of Nix for your platform";;
 esac
 
-url="https://releases.nixos.org/nix/nix-2.3.13/nix-2.3.13-$system.tar.xz"
+url="https://releases.nixos.org/nix/nix-2.3.14/nix-2.3.14-$system.tar.xz"
 
-tarball="$tmpDir/$(basename "$tmpDir/nix-2.3.13-$system.tar.xz")"
+tarball="$tmpDir/$(basename "$tmpDir/nix-2.3.14-$system.tar.xz")"
 
 require_util curl "download the binary tarball"
 require_util tar "unpack the binary tarball"
@@ -44,7 +43,7 @@ if [ "$(uname -s)" != "Darwin" ]; then
     require_util xz "unpack the binary tarball"
 fi
 
-echo "downloading Nix 2.3.13 binary tarball for $system from '$url' to '$tmpDir'..."
+echo "downloading Nix 2.3.14 binary tarball for $system from '$url' to '$tmpDir'..."
 curl -L "$url" -o "$tarball" || oops "failed to download '$url'"
 
 if command -v sha256sum > /dev/null 2>&1; then
