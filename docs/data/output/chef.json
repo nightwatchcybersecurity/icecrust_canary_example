@@ -1,7 +1,7 @@
 {
     "name": "chef installer",
     "url": "https://docs.chef.io/chef_install_script/",
-    "timestamp": "2021-07-08T00:10:23.924109+00:00",
+    "timestamp": "2021-07-08T01:47:46.180885+00:00",
     "filename_url": "https://omnitruck.chef.io/install.sh",
     "checksum_value": "3574b2a33555718d02132979d275467f6818299a3e537313060fc24d711aceb4",
     "verification_mode": "compare_files",
