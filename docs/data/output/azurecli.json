@@ -1,7 +1,7 @@
 {
     "name": "azure cli",
     "url": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=script",
-    "timestamp": "2021-07-08T10:01:39.449979+00:00",
+    "timestamp": "2021-07-08T11:01:34.161655+00:00",
     "filename_url": "https://aka.ms/InstallAzureCli",
     "checksum_value": "9d76748be90a5d813c369c0ce391f40696edc548cb30bd26ae547f822694c32e",
     "verification_mode": "compare_files",
