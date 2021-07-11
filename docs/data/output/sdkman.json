@@ -1,7 +1,7 @@
 {
     "name": "sdkman",
     "url": "https://sdkman.io/install",
-    "timestamp": "2021-07-11T13:08:14.137383+00:00",
+    "timestamp": "2021-07-11T14:01:25.893348+00:00",
     "filename_url": "https://get.sdkman.io/",
     "checksum_value": "611a57dcefaed7f7001c6a2bc0fc0d28fe40fa304da666dd7f17e1acf829eb1f",
     "verification_mode": "compare_files",
