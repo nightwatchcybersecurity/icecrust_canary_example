@@ -19,7 +19,7 @@
 
 # Global variables
 SDKMAN_SERVICE="https://api.sdkman.io/2"
-SDKMAN_VERSION="5.11.6"
+SDKMAN_VERSION="5.11.7"
 SDKMAN_PLATFORM=$(uname)
 
 if [ -z "$SDKMAN_DIR" ]; then
@@ -229,6 +229,7 @@ echo "Prime the config file..."
 touch "$sdkman_config_file"
 echo "sdkman_auto_answer=false" >> "$sdkman_config_file"
 echo "sdkman_auto_selfupdate=false" >> "$sdkman_config_file"
+echo "sdkman_selfupdate_enable=true" >> "$sdkman_config_file"
 echo "sdkman_insecure_ssl=false" >> "$sdkman_config_file"
 echo "sdkman_curl_connect_timeout=7" >> "$sdkman_config_file"
 echo "sdkman_curl_max_time=10" >> "$sdkman_config_file"
