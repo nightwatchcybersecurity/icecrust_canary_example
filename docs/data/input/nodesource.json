@@ -1,0 +1,9 @@
+{
+  "name": "nodesource",
+  "url": "https://github.com/nodesource/distributions",
+  "filename_url": "https://deb.nodesource.com/setup_16.x",
+  "previous_version": "data/output_data/nodesource.txt",
+  "compare_files": {
+    "file2_url": "https://raw.githubusercontent.com/nodesource/distributions/master/deb/setup_16.x"
+  }
+}
