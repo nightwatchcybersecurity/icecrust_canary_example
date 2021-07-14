@@ -4,6 +4,6 @@
   "filename_url": "https://sh.rustup.rs",
   "previous_version": "data/output_data/rustup.txt",
   "compare_files": {
-    "file2_url": "https://raw.githubusercontent.com/rust-lang/rustup/master/rustup-init.sh"
+    "file2_url": "https://raw.githubusercontent.com/rust-lang/rustup/stable/rustup-init.sh"
   }
 }
