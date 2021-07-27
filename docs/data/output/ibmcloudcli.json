@@ -1,7 +1,7 @@
 {
     "name": "ibm cloud cli",
     "url": "https://cloud.ibm.com/docs/cli?topic=cli-getting-started",
-    "timestamp": "2021-07-26T18:21:13.109283+00:00",
+    "timestamp": "2021-07-27T00:56:16.697450+00:00",
     "filename_url": "https://ibm.biz/idt-installer",
     "checksum_value": "9480c42b2466f80b9c4d3aadab437f5c56ac3546d687112909938c2661adb8bb",
     "verification_mode": "compare_files",
