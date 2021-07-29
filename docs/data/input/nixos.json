@@ -4,7 +4,7 @@
   "filename_url": "https://nixos.org/nix/install",
   "previous_version": "data/output_data/nixos.txt",
   "pgp": {
-    "signaturefile_url": "https://releases.nixos.org/nix/nix-2.3.14/install.asc",
+    "signaturefile_url": "https://releases.nixos.org/nix/nix-2.3.15/install.asc",
     "keyfile_url": "https://raw.githubusercontent.com/NixOS/nixos-homepage/master/edolstra.gpg"
   }
 }
