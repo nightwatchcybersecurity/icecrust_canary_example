@@ -24,6 +24,9 @@ SDKMAN_PLATFORM=$(uname)
 
 if [ -z "$SDKMAN_DIR" ]; then
     SDKMAN_DIR="$HOME/.sdkman"
+    SDKMAN_DIR_RAW='$HOME/.sdkman'
+else
+    SDKMAN_DIR_RAW="$SDKMAN_DIR"
 fi
 
 # Local variables
@@ -42,12 +45,12 @@ sdkman_config_file="${sdkman_etc_folder}/config"
 sdkman_bash_profile="${HOME}/.bash_profile"
 sdkman_profile="${HOME}/.profile"
 sdkman_bashrc="${HOME}/.bashrc"
-sdkman_zshrc="${HOME}/.zshrc"
+sdkman_zshrc="${ZDOTDIR:-${HOME}}/.zshrc"
 
 sdkman_init_snippet=$( cat << EOF
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$SDKMAN_DIR"
-[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
+export SDKMAN_DIR="$SDKMAN_DIR_RAW"
+[[ -s "${SDKMAN_DIR_RAW}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR_RAW}/bin/sdkman-init.sh"
 EOF
 )
 
