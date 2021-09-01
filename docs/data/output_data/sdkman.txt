@@ -19,7 +19,7 @@
 
 # Global variables
 SDKMAN_SERVICE="https://api.sdkman.io/2"
-SDKMAN_VERSION="5.12.2"
+SDKMAN_VERSION="5.12.3"
 SDKMAN_PLATFORM=$(uname)
 
 if [ -z "$SDKMAN_DIR" ]; then
