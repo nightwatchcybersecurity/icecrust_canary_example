@@ -1,11 +1,11 @@
 {
     "name": "codecov uploader",
     "url": "https://docs.codecov.io/docs/about-the-codecov-bash-uploader",
-    "timestamp": "2021-09-30T18:19:35.664740+00:00",
+    "timestamp": "2021-10-01T01:01:04.130523+00:00",
     "filename_url": "https://codecov.io/bash",
-    "checksum_value": "f0e7a3ee76a787c37aa400cf44aee0c9b473b2fa79092edfb36d1faa853bbe23",
+    "checksum_value": "1c8706cd9ebd06307ad4511cbf164cbc90dfa1ce3d8c27196710ad4ee0b86f15",
     "verification_mode": "checksumfile",
-    "verified": true,
-    "previous_version_matched": true,
-    "output": ""
+    "verified": false,
+    "previous_version_matched": false,
+    "output": "Algorithm: sha256, File checksum: 1c8706cd9ebd06307ad4511cbf164cbc90dfa1ce3d8c27196710ad4ee0b86f15, No match found in checksum file"
 }
