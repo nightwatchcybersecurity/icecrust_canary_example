@@ -1,7 +1,7 @@
 {
     "name": "homebrew",
     "url": "https://brew.sh/",
-    "timestamp": "2021-10-03T18:18:52.705027+00:00",
+    "timestamp": "2021-10-04T01:02:12.539036+00:00",
     "filename_url": "https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh",
     "checksum_value": "586d9ddff4c8a3ab0c1e9ab3e26a4cb5e4453fe43970207c215d329531921527",
     "verification_mode": "compare_files",
