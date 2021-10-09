@@ -1,11 +1,11 @@
 {
     "name": "nixos installer",
     "url": "https://nixos.org/guides/install-nix.html",
-    "timestamp": "2021-10-09T00:55:44.995482+00:00",
+    "timestamp": "2021-10-09T06:19:46.498529+00:00",
     "filename_url": "https://nixos.org/nix/install",
-    "checksum_value": "a18a0f2cf9d79d1f4504c076adedf4c59d0fe03db9f268378d61dcb49887fc2b",
+    "checksum_value": "0133a0670d72e07ef6658ddd095765ba1c73909d97de1e17c4e246b5fc8c8e15",
     "verification_mode": "pgp",
-    "verified": true,
-    "previous_version_matched": true,
-    "output": ""
+    "verified": false,
+    "previous_version_matched": false,
+    "output": "[GNUPG:] NEWSIG\ngpg: Signature made Wed Jul 28 20:44:05 2021 UTC\ngpg:                using RSA key B541D55301270E0BCF15CA5D8170B4726D7198DE\n[GNUPG:] KEY_CONSIDERED B541D55301270E0BCF15CA5D8170B4726D7198DE 0\n[GNUPG:] KEY_CONSIDERED B541D55301270E0BCF15CA5D8170B4726D7198DE 0\n[GNUPG:] BADSIG 8170B4726D7198DE Eelco Dolstra <edolstra@gmail.com>\ngpg: BAD signature from \"Eelco Dolstra <edolstra@gmail.com>\" [unknown]\n[GNUPG:] VERIFICATION_COMPLIANCE_MODE 23\n[GNUPG:] FAILURE gpg-exit 33554433\n"
 }
