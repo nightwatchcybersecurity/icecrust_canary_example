@@ -1,11 +1,11 @@
 {
     "name": "sdkman",
     "url": "https://sdkman.io/install",
-    "timestamp": "2021-10-10T18:19:32.552660+00:00",
+    "timestamp": "2021-10-11T00:59:53.076622+00:00",
     "filename_url": "https://get.sdkman.io/",
-    "checksum_value": "f3e73c5ba9a130451b259e6368572ca9f59c2be98a3512e943076268b26e74d8",
+    "checksum_value": "e814ae50d89b71bd1821b2228a262d222f17af21e3b517961409714826760a6b",
     "verification_mode": "compare_files",
     "verified": true,
-    "previous_version_matched": true,
+    "previous_version_matched": false,
     "output": ""
 }
