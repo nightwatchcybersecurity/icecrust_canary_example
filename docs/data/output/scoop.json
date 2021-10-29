@@ -1,11 +1,11 @@
 {
     "name": "scoop",
     "url": "https://scoop.sh/",
-    "timestamp": "2021-10-28T18:20:43.936719+00:00",
+    "timestamp": "2021-10-29T00:55:09.218198+00:00",
     "filename_url": "https://get.scoop.sh",
-    "checksum_value": "7273f0415ff1fbd33343b973bacb8496fc22c51799e9f823ea1c1a455adbd180",
+    "checksum_value": "8008fbde8eab09fd286abad2328de0bfc207e3adbe8a947448e79859c39ee337",
     "verification_mode": "compare_files",
     "verified": true,
-    "previous_version_matched": true,
+    "previous_version_matched": false,
     "output": ""
 }
