@@ -1,7 +1,7 @@
 {
     "name": "mattermost",
     "url": "https://docs.mattermost.com/help/getting-started/light-install.html#installation",
-    "timestamp": "2021-11-05T00:56:26.194372+00:00",
+    "timestamp": "2021-11-05T06:21:09.691246+00:00",
     "filename_url": "https://deb.packages.mattermost.com/repo-setup.sh",
     "checksum_value": "203908888a9fc6c751966e5e779995da8696b61152878bfa7f2cd886a32b0bcf",
     "verification_mode": "compare_files",
