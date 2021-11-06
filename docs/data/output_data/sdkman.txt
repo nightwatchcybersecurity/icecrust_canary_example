@@ -15,11 +15,11 @@
 #   limitations under the License.
 #
 
-# install:- channel: stable; version: 5.13.0; api: https://api.sdkman.io/2
+# install:- channel: stable; version: 5.13.1; api: https://api.sdkman.io/2
 
 # Global variables
 SDKMAN_SERVICE="https://api.sdkman.io/2"
-SDKMAN_VERSION="5.13.0"
+SDKMAN_VERSION="5.13.1"
 SDKMAN_PLATFORM=$(uname)
 
 if [ -z "$SDKMAN_DIR" ]; then
