@@ -1,7 +1,7 @@
 {
     "name": "nodesource",
     "url": "https://github.com/nodesource/distributions",
-    "timestamp": "2021-11-08T06:21:49.141887+00:00",
+    "timestamp": "2021-11-08T12:28:02.301554+00:00",
     "filename_url": "https://deb.nodesource.com/setup_16.x",
     "checksum_value": "7d84d01548e2d94897da0f1037face61d898132e39830b99846e7a3bf56e4199",
     "verification_mode": "compare_files",
