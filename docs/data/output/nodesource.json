@@ -1,11 +1,11 @@
 {
     "name": "nodesource",
     "url": "https://github.com/nodesource/distributions",
-    "timestamp": "2021-11-18T00:57:58.627697+00:00",
+    "timestamp": "2021-11-18T06:21:13.334644+00:00",
     "filename_url": "https://deb.nodesource.com/setup_16.x",
-    "checksum_value": "7d84d01548e2d94897da0f1037face61d898132e39830b99846e7a3bf56e4199",
+    "checksum_value": "a112ad2cf36a1a2e3e233310740de79d2370213f757ca1b7f93de2f744fb265c",
     "verification_mode": "compare_files",
-    "verified": false,
-    "previous_version_matched": true,
-    "output": "File1 checksum: 7d84d01548e2d94897da0f1037face61d898132e39830b99846e7a3bf56e4199, File2 checksum: a112ad2cf36a1a2e3e233310740de79d2370213f757ca1b7f93de2f744fb265c"
+    "verified": true,
+    "previous_version_matched": false,
+    "output": ""
 }
