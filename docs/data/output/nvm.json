@@ -1,7 +1,7 @@
 {
     "name": "nvm",
     "url": "https://github.com/nvm-sh/nvm#installing-and-updating",
-    "timestamp": "2021-11-26T18:20:43.245465+00:00",
+    "timestamp": "2021-11-27T00:56:12.187418+00:00",
     "filename_url": "https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh",
     "checksum_value": "56318b205d32c27222ffcd928417273e712e0efb32b45a7cc9313823e096f4b0",
     "verification_mode": "compare_files",
