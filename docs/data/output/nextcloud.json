@@ -1,11 +1,11 @@
 {
     "name": "nextcloud web installer",
     "url": "https://nextcloud.com/install/#instructions-server",
-    "timestamp": "2021-11-30T12:23:42.909248+00:00",
+    "timestamp": "2021-11-30T18:20:56.833476+00:00",
     "filename_url": "https://download.nextcloud.com/server/installer/setup-nextcloud.php",
-    "checksum_value": "9c8cee9470265e9aa95cda8f038595720bbff08d07b615f5cb4c92275e817c27",
+    "checksum_value": "bc841ef31635f013e2b54e335c405d4a99beab587e42f141697346aa67020459",
     "verification_mode": "compare_files",
     "verified": true,
-    "previous_version_matched": true,
+    "previous_version_matched": false,
     "output": ""
 }
