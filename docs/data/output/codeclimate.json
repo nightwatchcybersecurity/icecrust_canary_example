@@ -1,0 +1,10 @@
+{
+    "name": "codeclimate",
+    "url": "https://github.com/codeclimate/test-reporter",
+    "timestamp": "2021-12-04T22:31:24.848370-05:00",
+    "filename_url": "https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64",
+    "checksum_value": "8792c8e14d089c0545ba202bb29bd6b0e055452fb65c2e3976b24d465d456b42",
+    "verification_mode": "pgpchecksumfile",
+    "verified": true,
+    "output": ""
+}

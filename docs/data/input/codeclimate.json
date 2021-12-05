@@ -1,0 +1,12 @@
+{
+  "name": "codeclimate",
+  "url": "https://github.com/codeclimate/test-reporter",
+  "filename_url": "https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64",
+  "previous_version": "data/output_data/codeclimate.txt",
+  "pgpchecksumfile": {
+    "checksumfile_url": "https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64.sha256",
+    "signaturefile_url": "https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64.sha256.sig",
+    "keyid": "9BD9E2DD46DA965A537E5B0A5CBF320243B6FD85",
+    "keyserver": "keys.openpgp.org"
+  }
+}
