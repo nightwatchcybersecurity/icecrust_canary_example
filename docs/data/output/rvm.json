@@ -1,7 +1,7 @@
 {
     "name": "rvm installer",
     "url": "https://rvm.io/rvm/install",
-    "timestamp": "2021-12-11T12:27:57.019600+00:00",
+    "timestamp": "2021-12-11T18:20:44.771233+00:00",
     "filename_url": "https://get.rvm.io",
     "checksum_value": "fea24461e98d41528d6e28684aa4c216dbe903869bc3fcdb3493b6518fae2e7e",
     "verification_mode": "pgp",
