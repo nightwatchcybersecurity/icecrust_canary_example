@@ -1,7 +1,7 @@
 {
     "name": "pi-hole installer",
     "url": "https://docs.pi-hole.net/main/basic-install/",
-    "timestamp": "2022-01-05T06:22:53.114290+00:00",
+    "timestamp": "2022-01-05T12:30:35.880774+00:00",
     "filename_url": "https://install.pi-hole.net",
     "checksum_value": "6be632e4235cfb122e15c0ea1c10e01dabb982a73fb2b62fde6eeda454cf4d33",
     "verification_mode": "compare_files",
