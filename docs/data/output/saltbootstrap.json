@@ -1,7 +1,7 @@
 {
     "name": "salt bootstrap",
     "url": "https://github.com/saltstack/salt-bootstrap",
-    "timestamp": "2022-01-10T18:22:46.051357+00:00",
+    "timestamp": "2022-01-11T01:05:46.749607+00:00",
     "filename_url": "https://bootstrap.saltproject.io",
     "checksum_value": "090d652cd6290debce0e3a4eded65086a4272e69446e711eb26f87160593b6a2",
     "verification_mode": "checksumfile",
