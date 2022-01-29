@@ -1,7 +1,7 @@
 {
     "name": "scoop",
     "url": "https://scoop.sh/",
-    "timestamp": "2022-01-29T06:20:18.748396+00:00",
+    "timestamp": "2022-01-29T12:29:43.612600+00:00",
     "filename_url": "https://get.scoop.sh",
     "checksum_value": "8008fbde8eab09fd286abad2328de0bfc207e3adbe8a947448e79859c39ee337",
     "verification_mode": "compare_files",
