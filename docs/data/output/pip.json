@@ -1,7 +1,7 @@
 {
     "name": "pip bootstrap",
     "url": "https://pip.pypa.io/en/stable/",
-    "timestamp": "2022-01-31T06:20:38.455891+00:00",
+    "timestamp": "2022-01-31T12:27:10.003562+00:00",
     "filename_url": "https://bootstrap.pypa.io/get-pip.py",
     "checksum_value": "f2aaa496cb4dc3c7f3ceb9fe72d6dbe770f4e9c4013b66d7c81903b4420134fa",
     "verification_mode": "compare_files",
