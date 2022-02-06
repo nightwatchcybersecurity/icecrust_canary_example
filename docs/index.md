@@ -1,7 +1,10 @@
 ---
-title: Icetrust Example Dashboard
+title: Icetrust Example Dashboard - ARCHIVED
 ---
 <link rel="stylesheet" href="/css/custom.css">
+
+# ARCHIVED
+THIS PROJECT IS NOW ARCHIVED AND IS NO LONGER BEING UPDATED.
 
 # About
 This dashboard shows an example of how to use verify shell scripts
